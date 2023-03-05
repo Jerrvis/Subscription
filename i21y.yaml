@@ -5,91 +5,91 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US__31, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/fr1?ed=2048", ws-headers: {Host: fr1.pqjc.buzz}, udp: true}
-  - {name: JPN, server: dl-us1.steamdownload.top, port: 443, type: trojan, password: 8165e695-0746-4d45-ad56-24431b21f546, sni: dl-us1.steamdownload.top, skip-cert-verify: true, udp: true}
-  - {name: HK, server: tls.tls.tlz.asia, port: 4564, type: trojan, password: vNM1sRUSqZ, sni: tls.tls.tlz.asia, skip-cert-verify: true, udp: true}
-  - {name: FRA, server: fga2.6bbt.tk, port: 443, type: vmess, uuid: 6e41c22a-2794-4504-a05a-4f8def6d0bf5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /6bbt.tk, ws-headers: {Host: fga2.6bbt.tk}, udp: true}
-  - {name: CAN, server: 23.227.38.25, port: 443, type: vmess, uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AUIKN8AU, ws-headers: {Host: oplg1.cfcdn2.xyz}, udp: true}
-  - {name: US__8, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: buyvm-ny.sharecentre.online}, udp: true}
-  - {name: US__10, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/us1?ed=2048", ws-headers: {Host: us1.yfjc.sbs}, udp: true}
-  - {name: US__28, server: no.aries.ovh, port: 2052, type: vmess, uuid: bcc07473-9b9b-4542-a870-9d9b54b060aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: buyvm.cloudflare.quest}, udp: true}
-  - {name: US__16, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/us2?ed=2048", ws-headers: {Host: us2.yfjc.sbs}, udp: true}
-  - {name: US__38, server: no.aries.ovh, port: 2052, type: vmess, uuid: bcc07473-9b9b-4542-a870-9d9b54b060aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: uk.cloudflare.quest}, udp: true}
-  - {name: US__36, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 769c2da7-add3-42e8-a03c-07be9fcf483c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/yfjc/nl?ed=2048", ws-headers: {Host: nl.yfjc.sbs}, udp: true}
-  - {name: US__60, server: cdn.xia.me, port: 443, type: vmess, uuid: 68fe8d27-cbc8-4e72-90b7-70d3bb69dfd3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api, ws-headers: {Host: us12.cachexy.ga}, udp: true}
-  - {name: US__53, server: 103.21.244.173, port: 80, type: vmess, uuid: f7738290-ba04-4dd1-b4f3-e6863a9e1c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zzsg.nmsl.pics}, udp: true}
-  - {name: CN__2, server: hy.guanguan.club, port: 11410, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nba, ws-headers: {Host: sg1.oraclec.pp.ua}, udp: true}
-  - {name: US__81, server: 172.67.199.115, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lu.sharecentre.online}, udp: true}
-  - {name: SG__164, server: hk-v.somnode.top, port: 80, type: vmess, uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/ws?ed=2048", ws-headers: {Host: hk-v.somnode.top}, udp: true}
-  - {name: CN__132, server: hnm.xiaohouzi.club, port: 47551, type: trojan, password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27, sni: hnm.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 香港-3.67MB/s, server: dl-hk1.steamdownload.top, port: 443, type: trojan, password: d7fdbf6d-6c9b-41af-924f-5944cd88dcf5, sni: dl-hk1.steamdownload.top, skip-cert-verify: true, udp: true}
+  - {name: _jkun_1, server: 112.33.32.136, port: 10001, type: vmess, uuid: cb7001c7-e495-41ac-b942-f25f60523414, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _jkun_83, server: hy.guanguan.club, port: 11410, type: vmess, uuid: 5707bceb-1da9-41e1-bd03-1bb3d1c28a2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nba, ws-headers: {Host: sg1.oraclec.pp.ua}, udp: true}
+  - {name: _jkun_53, server: us.he.04.nekocloud.cn, port: 19042, type: vmess, uuid: 767ebf8c-3020-3e52-9109-4bdb49510842, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: us.he.04.nekocloud.cn}, udp: true}
+  - {name: _jkun_10, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: france.cloudflare.quest}, udp: true}
+  - {name: _jkun_36, server: cdn-cn.nekocloud.cn, port: 19029, type: vmess, uuid: 767ebf8c-3020-3e52-9109-4bdb49510842, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: _jkun_14, server: cf.bakapie.cf, port: 2096, type: vmess, uuid: cae6201f-50fe-4895-8930-841f1d8c4eb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 3464a64e.8200860.xyz}, udp: true}
+  - {name: _jkun_44, server: no.aries.ovh, port: 2052, type: vmess, uuid: 88aa4851-2b1e-404c-a453-685f12489f9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: netherlands.cloudflare.quest}, udp: true}
+  - {name: _jkun_85, server: hk80-2.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: dcea7f3e-98ba-4ac8-a294-5092dc381a57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: _jkun_72, server: 223.111.202.139, port: 63086, type: vmess, uuid: cef94bbf-8bd7-3565-a1c8-0e311643e657, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: _jkun_74, server: cdn-cn.nekocloud.cn, port: 18999, type: vmess, uuid: 767ebf8c-3020-3e52-9109-4bdb49510842, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
+  - {name: 中转节点-1.50MB/s, server: v02.gutingting.com, port: 20223, type: trojan, password: 601b4c18-2016-47f3-84ca-7c04e9c6d376, sni: v02.gutingting.com, skip-cert-verify: true, udp: true}
+  - {name: 中转节点-4.08MB/s, server: shcm.donghui.tech, port: 50916, type: vmess, uuid: b0826aa2-255c-4651-aa38-1f1c31342003, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fly, ws-headers: {Host: shcm.donghui.tech}, udp: true}
+  - {name: 中转节点-16.20MB/s, server: shcm.donghui.tech, port: 48422, type: vmess, uuid: 62cb0ea9-7f00-4d8a-bd12-e11a23a6e39a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9b08c0d777, ws-headers: {Host: grctokyo21.see1.cf}, udp: true}
+  - {name: 中转节点-10.02MB/s, server: ydgy.fosi.hk, port: 38461, type: vmess, uuid: 62cb0ea9-7f00-4d8a-bd12-e11a23a6e39a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9b08c0d789, ws-headers: {Host: wyhk5.see1.cf}, udp: true}
+  - {name: 中转节点-4.76MB/s, server: scloud16.jafiyun.world, port: 22016, type: trojan, password: 95705d2e-7a3c-3dda-a58a-a19ef5aedfd3, sni: scloud16.jafiyun.world, skip-cert-verify: true, udp: true}
+  - {name: 日本-4.23MB/s, server: dl-us1.steamdownload.top, port: 443, type: trojan, password: d7fdbf6d-6c9b-41af-924f-5944cd88dcf5, sni: dl-us1.steamdownload.top, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US__31
-      - JPN
-      - HK
-      - FRA
-      - CAN
-      - US__8
-      - US__10
-      - US__28
-      - US__16
-      - US__38
-      - US__36
-      - US__60
-      - US__53
-      - CN__2
-      - US__81
-      - SG__164
-      - CN__132
+      - 香港-3.67MB/s
+      - _jkun_1
+      - _jkun_83
+      - _jkun_53
+      - _jkun_10
+      - _jkun_36
+      - _jkun_14
+      - _jkun_44
+      - _jkun_85
+      - _jkun_72
+      - _jkun_74
+      - 中转节点-1.50MB/s
+      - 中转节点-4.08MB/s
+      - 中转节点-16.20MB/s
+      - 中转节点-10.02MB/s
+      - 中转节点-4.76MB/s
+      - 日本-4.23MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US__31
-      - JPN
-      - HK
-      - FRA
-      - CAN
-      - US__8
-      - US__10
-      - US__28
-      - US__16
-      - US__38
-      - US__36
-      - US__60
-      - US__53
-      - CN__2
-      - US__81
-      - SG__164
-      - CN__132
+      - 香港-3.67MB/s
+      - _jkun_1
+      - _jkun_83
+      - _jkun_53
+      - _jkun_10
+      - _jkun_36
+      - _jkun_14
+      - _jkun_44
+      - _jkun_85
+      - _jkun_72
+      - _jkun_74
+      - 中转节点-1.50MB/s
+      - 中转节点-4.08MB/s
+      - 中转节点-16.20MB/s
+      - 中转节点-10.02MB/s
+      - 中转节点-4.76MB/s
+      - 日本-4.23MB/s
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US__31
-      - JPN
-      - HK
-      - FRA
-      - CAN
-      - US__8
-      - US__10
-      - US__28
-      - US__16
-      - US__38
-      - US__36
-      - US__60
-      - US__53
-      - CN__2
-      - US__81
-      - SG__164
-      - CN__132
+      - 香港-3.67MB/s
+      - _jkun_1
+      - _jkun_83
+      - _jkun_53
+      - _jkun_10
+      - _jkun_36
+      - _jkun_14
+      - _jkun_44
+      - _jkun_85
+      - _jkun_72
+      - _jkun_74
+      - 中转节点-1.50MB/s
+      - 中转节点-4.08MB/s
+      - 中转节点-16.20MB/s
+      - 中转节点-10.02MB/s
+      - 中转节点-4.76MB/s
+      - 日本-4.23MB/s
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -108,95 +108,96 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US__31
-      - JPN
-      - HK
-      - FRA
-      - CAN
-      - US__8
-      - US__10
-      - US__28
-      - US__16
-      - US__38
-      - US__36
-      - US__60
-      - US__53
-      - CN__2
-      - US__81
-      - SG__164
-      - CN__132
+      - 香港-3.67MB/s
+      - _jkun_1
+      - _jkun_83
+      - _jkun_53
+      - _jkun_10
+      - _jkun_36
+      - _jkun_14
+      - _jkun_44
+      - _jkun_85
+      - _jkun_72
+      - _jkun_74
+      - 中转节点-1.50MB/s
+      - 中转节点-4.08MB/s
+      - 中转节点-16.20MB/s
+      - 中转节点-10.02MB/s
+      - 中转节点-4.76MB/s
+      - 日本-4.23MB/s
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港-3.67MB/s
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US__31
-      - JPN
-      - HK
-      - FRA
-      - CAN
-      - US__8
-      - US__10
-      - US__28
-      - US__16
-      - US__38
-      - US__36
-      - US__60
-      - US__53
-      - CN__2
-      - US__81
-      - SG__164
-      - CN__132
+      - 香港-3.67MB/s
+      - _jkun_1
+      - _jkun_83
+      - _jkun_53
+      - _jkun_10
+      - _jkun_36
+      - _jkun_14
+      - _jkun_44
+      - _jkun_85
+      - _jkun_72
+      - _jkun_74
+      - 中转节点-1.50MB/s
+      - 中转节点-4.08MB/s
+      - 中转节点-16.20MB/s
+      - 中转节点-10.02MB/s
+      - 中转节点-4.76MB/s
+      - 日本-4.23MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US__31
-      - JPN
-      - HK
-      - FRA
-      - CAN
-      - US__8
-      - US__10
-      - US__28
-      - US__16
-      - US__38
-      - US__36
-      - US__60
-      - US__53
-      - CN__2
-      - US__81
-      - SG__164
-      - CN__132
+      - 香港-3.67MB/s
+      - _jkun_1
+      - _jkun_83
+      - _jkun_53
+      - _jkun_10
+      - _jkun_36
+      - _jkun_14
+      - _jkun_44
+      - _jkun_85
+      - _jkun_72
+      - _jkun_74
+      - 中转节点-1.50MB/s
+      - 中转节点-4.08MB/s
+      - 中转节点-16.20MB/s
+      - 中转节点-10.02MB/s
+      - 中转节点-4.76MB/s
+      - 日本-4.23MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US__31
-      - JPN
-      - HK
-      - FRA
-      - CAN
-      - US__8
-      - US__10
-      - US__28
-      - US__16
-      - US__38
-      - US__36
-      - US__60
-      - US__53
-      - CN__2
-      - US__81
-      - SG__164
-      - CN__132
+      - 香港-3.67MB/s
+      - _jkun_1
+      - _jkun_83
+      - _jkun_53
+      - _jkun_10
+      - _jkun_36
+      - _jkun_14
+      - _jkun_44
+      - _jkun_85
+      - _jkun_72
+      - _jkun_74
+      - 中转节点-1.50MB/s
+      - 中转节点-4.08MB/s
+      - 中转节点-16.20MB/s
+      - 中转节点-10.02MB/s
+      - 中转节点-4.76MB/s
+      - 日本-4.23MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -212,23 +213,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US__31
-      - JPN
-      - HK
-      - FRA
-      - CAN
-      - US__8
-      - US__10
-      - US__28
-      - US__16
-      - US__38
-      - US__36
-      - US__60
-      - US__53
-      - CN__2
-      - US__81
-      - SG__164
-      - CN__132
+      - 香港-3.67MB/s
+      - _jkun_1
+      - _jkun_83
+      - _jkun_53
+      - _jkun_10
+      - _jkun_36
+      - _jkun_14
+      - _jkun_44
+      - _jkun_85
+      - _jkun_72
+      - _jkun_74
+      - 中转节点-1.50MB/s
+      - 中转节点-4.08MB/s
+      - 中转节点-16.20MB/s
+      - 中转节点-10.02MB/s
+      - 中转节点-4.76MB/s
+      - 日本-4.23MB/s
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
