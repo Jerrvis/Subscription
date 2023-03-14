@@ -5,123 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK__52, server: awshk9-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 6f98b32d-1e36-4be5-8c30-edb0ae1220a9, sni: awshk9-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: CN__127, server: in02.my1188.org, port: 63088, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
-  - {name: GB__129, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: US_124, server: 192.203.230.10, port: 443, type: vmess, uuid: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwerty, ws-headers: {Host: hk01.kelecloud.xyz}, udp: true}
+  - {name: US_152, server: 192.203.230.11, port: 443, type: vmess, uuid: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwerty, ws-headers: {Host: hk01.kelecloud.xyz}, udp: true}
+  - {name: CN_94, server: in04.my1188.org, port: 63087, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
+  - {name: CN_59, server: in02.my1188.org, port: 63087, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
   - {name: 中转节点-8.61MB/s, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
-  - {name: CN__94, server: in04.my1188.org, port: 63087, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
-  - {name: CN__6, server: in03.my1188.org, port: 63086, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
-  - {name: BZ__42, server: 203.30.190.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: 154.v2ray3.xyz}, udp: true}
-  - {name: US__8, server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: 5a822b26-4ae6-49d6-a48a-33f9c21e01a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tg@sudoxin, ws-headers: {Host: vc-de1.imnibaba.tk}, udp: true}
-  - {name: CN__59, server: in02.my1188.org, port: 63087, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
-  - {name: CN__49, server: in02.my1188.org, port: 63086, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
-  - {name: CN__1, server: jscm.xn--dlq110j6ul.cc, port: 25168, type: ss, cipher: aes-128-gcm, password: 6f98b32d-1e36-4be5-8c30-edb0ae1220a9, udp: true}
-  - {name: RO__71, server: 45.85.118.88, port: 443, type: vmess, uuid: a13811ab-c143-4111-a207-43878d4f2be8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-ws, ws-headers: {Host: vmess-ctb-us01.globalssh.xyz}, udp: true}
-  - {name: CN__47, server: in03.my1188.org, port: 63087, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
-  - {name: CN__5, server: in03.my1188.org, port: 63078, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: FR__8, server: 173.245.49.0, port: 2095, type: vmess, uuid: d1baf2c8-4b0b-400d-8e08-b1a2ff149fa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TG:@hkaa0, ws-headers: {Host: lin.d.sg.wyhkaa0.gq}, udp: true}
-  - {name: US__39, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 27509613-bbd5-403a-868c-8022d36aa565, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/pq/nl1?ed=2048", ws-headers: {Host: nl1.pqjc.buzz}, udp: true}
-  - {name: US__61, server: v2ray.online, port: 443, type: vmess, uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Kansas.v2ray.online}, udp: true}
-  - {name: 美国-6.02MB/s, server: ny1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ny1.sharecentrepro.org}, udp: true}
-  - {name: US__55, server: america2.yj2022.ga, port: 443, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /SRhXKZqggNrPMELA525Kw, ws-headers: {Host: america2.yj2022.ga}, udp: true}
-  - {name: BZ__20, server: 203.30.191.20, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dongtaiwang.com, ws-headers: {Host: clash6.ssr-free.xyz}, udp: true}
-  - {name: US__30, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
+  - {name: CN_49, server: in02.my1188.org, port: 63086, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: US_59, server: ca-nnc.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: ca-nnc.ilovescp.com}, udp: true}
+  - {name: CN_127, server: in02.my1188.org, port: 63088, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
+  - {name: AM_44, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: 154.v2ray3.xyz}, udp: true}
+  - {name: CN_6, server: in03.my1188.org, port: 63086, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: CN_47, server: in03.my1188.org, port: 63087, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
+  - {name: CN_184, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CA_60, server: 23.227.38.11, port: 443, type: vmess, uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /UMW36262, ws-headers: {Host: frgt1.ssr-free2.xyz}, udp: true}
+  - {name: US_30, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: hk-hytron.ilovescp.com}, udp: true}
+  - {name: US_69, server: 172.67.199.34, port: 443, type: vmess, uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shares, ws-headers: {Host: la.awsbest.com}, udp: true}
+  - {name: US_14, server: lv1.sharecentrepro.org, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /shirker, ws-headers: {Host: lv1.sharecentrepro.org}, udp: true}
   - {name: CN__59 2, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US__68, server: no.aries.ovh, port: 80, type: vmess, uuid: 88e5a793-3875-4c63-940c-bd6ea11075cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: ssrsub.v10.asuka.buzz}, udp: true}
-  - {name: BZ__22, server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: 154.v2ray3.xyz}, udp: true}
-  - {name: HK__152, server: hk80-2.af49c4e4c2ef.sanfen001.pics, port: 80, type: vmess, uuid: 7e7d75a0-8790-4c71-bfd2-f4f3b8c237bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/, ws-headers: {Host: hk80-2.af49c4e4c2ef.sanfen001.pics}, udp: true}
+  - {name: CN_5, server: in03.my1188.org, port: 63078, type: vmess, uuid: ecea3377-066e-32e8-888a-ba4e3aeb0e29, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK__52
-      - CN__127
-      - GB__129
+      - US_124
+      - US_152
+      - CN_94
+      - CN_59
       - 中转节点-8.61MB/s
-      - CN__94
-      - CN__6
-      - BZ__42
-      - US__8
-      - CN__59
-      - CN__49
-      - CN__1
-      - RO__71
-      - CN__47
-      - CN__5
-      - FR__8
-      - US__39
-      - US__61
-      - 美国-6.02MB/s
-      - US__55
-      - BZ__20
-      - US__30
+      - CN_49
+      - US_59
+      - CN_127
+      - AM_44
+      - CN_6
+      - CN_47
+      - CN_184
+      - CA_60
+      - US_30
+      - US_69
+      - US_14
       - CN__59 2
-      - US__68
-      - BZ__22
-      - HK__152
+      - CN_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK__52
-      - CN__127
-      - GB__129
+      - US_124
+      - US_152
+      - CN_94
+      - CN_59
       - 中转节点-8.61MB/s
-      - CN__94
-      - CN__6
-      - BZ__42
-      - US__8
-      - CN__59
-      - CN__49
-      - CN__1
-      - RO__71
-      - CN__47
-      - CN__5
-      - FR__8
-      - US__39
-      - US__61
-      - 美国-6.02MB/s
-      - US__55
-      - BZ__20
-      - US__30
+      - CN_49
+      - US_59
+      - CN_127
+      - AM_44
+      - CN_6
+      - CN_47
+      - CN_184
+      - CA_60
+      - US_30
+      - US_69
+      - US_14
       - CN__59 2
-      - US__68
-      - BZ__22
-      - HK__152
+      - CN_5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK__52
-      - CN__127
-      - GB__129
+      - US_124
+      - US_152
+      - CN_94
+      - CN_59
       - 中转节点-8.61MB/s
-      - CN__94
-      - CN__6
-      - BZ__42
-      - US__8
-      - CN__59
-      - CN__49
-      - CN__1
-      - RO__71
-      - CN__47
-      - CN__5
-      - FR__8
-      - US__39
-      - US__61
-      - 美国-6.02MB/s
-      - US__55
-      - BZ__20
-      - US__30
+      - CN_49
+      - US_59
+      - CN_127
+      - AM_44
+      - CN_6
+      - CN_47
+      - CN_184
+      - CA_60
+      - US_30
+      - US_69
+      - US_14
       - CN__59 2
-      - US__68
-      - BZ__22
-      - HK__152
+      - CN_5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,31 +112,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK__52
-      - CN__127
-      - GB__129
+      - US_124
+      - US_152
+      - CN_94
+      - CN_59
       - 中转节点-8.61MB/s
-      - CN__94
-      - CN__6
-      - BZ__42
-      - US__8
-      - CN__59
-      - CN__49
-      - CN__1
-      - RO__71
-      - CN__47
-      - CN__5
-      - FR__8
-      - US__39
-      - US__61
-      - 美国-6.02MB/s
-      - US__55
-      - BZ__20
-      - US__30
+      - CN_49
+      - US_59
+      - CN_127
+      - AM_44
+      - CN_6
+      - CN_47
+      - CN_184
+      - CA_60
+      - US_30
+      - US_69
+      - US_14
       - CN__59 2
-      - US__68
-      - BZ__22
-      - HK__152
+      - CN_5
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -175,92 +140,71 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK__52
-      - CN__127
-      - GB__129
+      - US_124
+      - US_152
+      - CN_94
+      - CN_59
       - 中转节点-8.61MB/s
-      - CN__94
-      - CN__6
-      - BZ__42
-      - US__8
-      - CN__59
-      - CN__49
-      - CN__1
-      - RO__71
-      - CN__47
-      - CN__5
-      - FR__8
-      - US__39
-      - US__61
-      - 美国-6.02MB/s
-      - US__55
-      - BZ__20
-      - US__30
+      - CN_49
+      - US_59
+      - CN_127
+      - AM_44
+      - CN_6
+      - CN_47
+      - CN_184
+      - CA_60
+      - US_30
+      - US_69
+      - US_14
       - CN__59 2
-      - US__68
-      - BZ__22
-      - HK__152
+      - CN_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK__52
-      - CN__127
-      - GB__129
+      - US_124
+      - US_152
+      - CN_94
+      - CN_59
       - 中转节点-8.61MB/s
-      - CN__94
-      - CN__6
-      - BZ__42
-      - US__8
-      - CN__59
-      - CN__49
-      - CN__1
-      - RO__71
-      - CN__47
-      - CN__5
-      - FR__8
-      - US__39
-      - US__61
-      - 美国-6.02MB/s
-      - US__55
-      - BZ__20
-      - US__30
+      - CN_49
+      - US_59
+      - CN_127
+      - AM_44
+      - CN_6
+      - CN_47
+      - CN_184
+      - CA_60
+      - US_30
+      - US_69
+      - US_14
       - CN__59 2
-      - US__68
-      - BZ__22
-      - HK__152
+      - CN_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK__52
-      - CN__127
-      - GB__129
+      - US_124
+      - US_152
+      - CN_94
+      - CN_59
       - 中转节点-8.61MB/s
-      - CN__94
-      - CN__6
-      - BZ__42
-      - US__8
-      - CN__59
-      - CN__49
-      - CN__1
-      - RO__71
-      - CN__47
-      - CN__5
-      - FR__8
-      - US__39
-      - US__61
-      - 美国-6.02MB/s
-      - US__55
-      - BZ__20
-      - US__30
+      - CN_49
+      - US_59
+      - CN_127
+      - AM_44
+      - CN_6
+      - CN_47
+      - CN_184
+      - CA_60
+      - US_30
+      - US_69
+      - US_14
       - CN__59 2
-      - US__68
-      - BZ__22
-      - HK__152
+      - CN_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -276,31 +220,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK__52
-      - CN__127
-      - GB__129
+      - US_124
+      - US_152
+      - CN_94
+      - CN_59
       - 中转节点-8.61MB/s
-      - CN__94
-      - CN__6
-      - BZ__42
-      - US__8
-      - CN__59
-      - CN__49
-      - CN__1
-      - RO__71
-      - CN__47
-      - CN__5
-      - FR__8
-      - US__39
-      - US__61
-      - 美国-6.02MB/s
-      - US__55
-      - BZ__20
-      - US__30
+      - CN_49
+      - US_59
+      - CN_127
+      - AM_44
+      - CN_6
+      - CN_47
+      - CN_184
+      - CA_60
+      - US_30
+      - US_69
+      - US_14
       - CN__59 2
-      - US__68
-      - BZ__22
-      - HK__152
+      - CN_5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
