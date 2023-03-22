@@ -5,139 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK_7, server: awshk6-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: awshk6-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: HK_10, server: awshk12-data.amazon-azure.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: awshk12-data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: CN_3, server: sgp01.internetsmartrouting.asia, port: 10419, type: vmess, uuid: 22ee4b91-cc38-4aa1-8905-7c74f64cafd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
-  - {name: HK_8, server: awshk2-data.amazon-azure.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: awshk2-data.amazon-azure.com, skip-cert-verify: true, udp: true}
-  - {name: CN_209, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW_108, server: kcdtw1-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: e95194b4-bc7e-497f-876a-686e127e0b65, sni: kcdtw1-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: CN_4, server: jmcm.xn--dlq110j6ul.cc, port: 30441, type: ss, cipher: chacha20-ietf-poly1305, password: e95194b4-bc7e-497f-876a-686e127e0b65, udp: true}
-  - {name: BZ__23, server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: 154.v2ray3.xyz}, udp: true}
-  - {name: +US1, server: us-cn-hk-relay-2-3cc426.ferryhwp8ebm.com, port: 7302, type: trojan, password: f2fc982f-3462-11e9-96d3-020b85e0a428, sni: us-cn-hk-relay-2-3cc426.ferryhwp8ebm.com, skip-cert-verify: true, udp: true}
-  - {name: 美国174, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: sgm2.targoocloud.live}, udp: true}
-  - {name: CN_100, server: 39.103.165.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_133, server: 66.42.105.84, port: 2096, type: vmess, uuid: b6565fe2-d6ae-4f41-f487-8fc8f94a698e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 66.42.105.84}, udp: true}
-  - {name: US_115, server: docker.com, port: 80, type: vmess, uuid: e018b9e8-96eb-45b6-b929-a39812631a30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /b11TYOdgihBEkvUmenTSMO0, ws-headers: {Host: germany.misnetwork.top}, udp: true}
-  - {name: HK_194, server: 43.154.233.89, port: 45516, type: vmess, uuid: 2264f24e-d814-4aa6-98c0-ed5a8322a0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hk12/getData, ws-headers: {Host: hk12.verichains.co}, udp: true}
-  - {name: AM__34, server: 185.162.228.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ECTCJ0DF, ws-headers: {Host: 154.v2ray3.xyz}, udp: true}
-  - {name: FR_127, server: farsroid.porton.top, port: 443, type: trojan, password: e018b9e8-96eb-45b6-b929-a39812631a30, sni: farsroid.porton.top, skip-cert-verify: true, udp: true}
-  - {name: 德国 法兰克福Oracle云计算数据中心, server: 130.61.111.167, port: 21872, type: vmess, uuid: 9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_17, server: sa.unlimitedtraffic.top, port: 25881, type: ss, cipher: chacha20-ietf-poly1305, password: 19323732-d371-43f0-a6c1-1833dc68a137, udp: true}
-  - {name: US__92, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde1.0bad.com}, udp: true}
-  - {name: US__118, server: no.aries.ovh, port: 2052, type: vmess, uuid: 69899069-e222-4b02-9fbe-570338bd7e36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/aries?ed=2048", ws-headers: {Host: ru.cloudflare.quest}, udp: true}
-  - {name: SG_136, server: stw9-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: stw9-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: SG_152, server: stw7-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: stw7-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: TW_140, server: stw10-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: stw10-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: SG_154, server: stw8-tg-data.amazonwebservicess.com, port: 443, type: trojan, password: 5c27ecc3-b9f2-4a68-90ea-5c97657eb241, sni: stw8-tg-data.amazonwebservicess.com, skip-cert-verify: true, udp: true}
-  - {name: 美国 18, server: 141.193.213.20, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9JZFDTKE, ws-headers: {Host: fr1.trump2023.org}, udp: true}
-  - {name: BZ__203, server: 203.30.190.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: 77.v2ray1.xyz}, udp: true}
-  - {name: BZ__69, server: 203.30.188.2, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A2DJOPFT, ws-headers: {Host: 77.v2ray1.xyz}, udp: true}
-  - {name: CN__59 2, server: 36.133.171.209, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: +SG新加坡_1, server: hn.xiaohouzi.club, port: 19024, type: trojan, password: 21e10785-99c6-316e-a184-a03384ee06e5, sni: hn.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: CN__145, server: 36.137.106.45, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: CN__166, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN__266, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN80, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: undefined181, server: october.mytargoocloud.live, port: 80, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: jpm2.nascloudreve.live}, udp: true}
+  - {name: SG140, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: vc-eu2.misakano.ml}, udp: true}
+  - {name: 香港183, server: b1.ss1011.top, port: 1509, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN77, server: 36.134.16.171, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG42, server: cdn.wuki.moe, port: 80, type: vmess, uuid: 747695c7-1ed8-44d1-a1a0-6b1b162748ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/sbga?ed=2048", ws-headers: {Host: vc-us3.misakano.ml}, udp: true}
+  - {name: _36, server: 36.134.16.190, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN184, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL__138, server: doinb.ml, port: 443, type: vmess, uuid: c2f89bc3-e151-411c-a2ea-7f3ef63a5408, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ikidvws, ws-headers: {Host: jp.lzgsm.tk}, udp: true}
+  - {name: UA33, server: doinb.ml, port: 443, type: vmess, uuid: 7f6fdc53-27d0-4ac8-8440-715992b7aab1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dsfsdf, ws-headers: {Host: sg1.doinb.tk}, udp: true}
+  - {name: CN__6, server: t.cccao.cyou, port: 16627, type: vmess, uuid: 416a9067-3d65-4f31-832d-51f44b63aebb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.cccao.cyou}, udp: true}
+  - {name: DE__85, server: 116.203.99.196, port: 443, type: vmess, uuid: 74a21beb-b004-43e0-b9ed-0e1aab698adc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [116.203.99.196]}}, udp: true}
+  - {name: FI__108, server: 95.216.181.19, port: 81, type: vmess, uuid: 5c4341a8-7400-4865-a86e-a98559b05044, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [95.216.181.19]}}, udp: true}
+  - {name: IR__147, server: z17.zirogame17.pw, port: 57077, type: vmess, uuid: 0a49d0bf-7f90-421a-fba6-70531d848c60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [z17.zirogame17.pw]}}, udp: true}
+  - {name: DE17, server: holyquran1.store, port: 443, type: vmess, uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /current_time, ws-headers: {Host: holyquran1.store}, udp: true}
+  - {name: 上海市 电信, server: oss-cn-shanghai.westdatacloud.top, port: 20048, type: trojan, password: 626351FA-3CA6-8118-FADF-CCDBCD620871, sni: oss-cn-shanghai.westdatacloud.top, skip-cert-verify: true, udp: true}
+  - {name: CN209, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国207, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: sgm1.targoocloud.live}, udp: true}
+  - {name: CN72, server: 36.134.16.96, port: 11023, type: vmess, uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国101, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: d7c91c45-8f30-4175-b78b-c18ccf6a1fa5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sgm1.targoocloud.live}, udp: true}
+  - {name: CN22, server: t.cccao.cyou, port: 16627, type: vmess, uuid: 416a9067-3d65-4f31-832d-51f44b63aebb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.cccao.cyou}, udp: true}
+  - {name: CN102, server: 36.139.166.247, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
+  - {name: CN191, server: 36.137.106.115, port: 11023, type: ss, cipher: aes-256-gcm, password: ll668668@, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_7
-      - HK_10
-      - CN_3
-      - HK_8
-      - CN_209
-      - TW_108
-      - CN_4
-      - BZ__23
-      - +US1
-      - 美国174
-      - CN_100
-      - US_133
-      - US_115
-      - HK_194
-      - AM__34
-      - FR_127
-      - 德国 法兰克福Oracle云计算数据中心
-      - CN_17
-      - US__92
-      - US__118
-      - SG_136
-      - SG_152
-      - TW_140
-      - SG_154
-      - 美国 18
-      - BZ__203
-      - BZ__69
-      - CN__59 2
-      - +SG新加坡_1
+      - CN__145
+      - CN__166
+      - CN__266
+      - CN80
+      - undefined181
+      - SG140
+      - 香港183
+      - CN77
+      - SG42
+      - _36
+      - CN184
+      - NL__138
+      - UA33
+      - CN__6
+      - DE__85
+      - FI__108
+      - IR__147
+      - DE17
+      - 上海市 电信
+      - CN209
+      - 美国207
+      - CN72
+      - 美国101
+      - CN22
+      - CN102
+      - CN191
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK_7
-      - HK_10
-      - CN_3
-      - HK_8
-      - CN_209
-      - TW_108
-      - CN_4
-      - BZ__23
-      - +US1
-      - 美国174
-      - CN_100
-      - US_133
-      - US_115
-      - HK_194
-      - AM__34
-      - FR_127
-      - 德国 法兰克福Oracle云计算数据中心
-      - CN_17
-      - US__92
-      - US__118
-      - SG_136
-      - SG_152
-      - TW_140
-      - SG_154
-      - 美国 18
-      - BZ__203
-      - BZ__69
-      - CN__59 2
-      - +SG新加坡_1
+      - CN__145
+      - CN__166
+      - CN__266
+      - CN80
+      - undefined181
+      - SG140
+      - 香港183
+      - CN77
+      - SG42
+      - _36
+      - CN184
+      - NL__138
+      - UA33
+      - CN__6
+      - DE__85
+      - FI__108
+      - IR__147
+      - DE17
+      - 上海市 电信
+      - CN209
+      - 美国207
+      - CN72
+      - 美国101
+      - CN22
+      - CN102
+      - CN191
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_7
-      - HK_10
-      - CN_3
-      - HK_8
-      - CN_209
-      - TW_108
-      - CN_4
-      - BZ__23
-      - +US1
-      - 美国174
-      - CN_100
-      - US_133
-      - US_115
-      - HK_194
-      - AM__34
-      - FR_127
-      - 德国 法兰克福Oracle云计算数据中心
-      - CN_17
-      - US__92
-      - US__118
-      - SG_136
-      - SG_152
-      - TW_140
-      - SG_154
-      - 美国 18
-      - BZ__203
-      - BZ__69
-      - CN__59 2
-      - +SG新加坡_1
+      - CN__145
+      - CN__166
+      - CN__266
+      - CN80
+      - undefined181
+      - SG140
+      - 香港183
+      - CN77
+      - SG42
+      - _36
+      - CN184
+      - NL__138
+      - UA33
+      - CN__6
+      - DE__85
+      - FI__108
+      - IR__147
+      - DE17
+      - 上海市 电信
+      - CN209
+      - 美国207
+      - CN72
+      - 美国101
+      - CN22
+      - CN102
+      - CN191
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -156,143 +144,132 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_7
-      - HK_10
-      - CN_3
-      - HK_8
-      - CN_209
-      - TW_108
-      - CN_4
-      - BZ__23
-      - +US1
-      - 美国174
-      - CN_100
-      - US_133
-      - US_115
-      - HK_194
-      - AM__34
-      - FR_127
-      - 德国 法兰克福Oracle云计算数据中心
-      - CN_17
-      - US__92
-      - US__118
-      - SG_136
-      - SG_152
-      - TW_140
-      - SG_154
-      - 美国 18
-      - BZ__203
-      - BZ__69
-      - CN__59 2
-      - +SG新加坡_1
+      - CN__145
+      - CN__166
+      - CN__266
+      - CN80
+      - undefined181
+      - SG140
+      - 香港183
+      - CN77
+      - SG42
+      - _36
+      - CN184
+      - NL__138
+      - UA33
+      - CN__6
+      - DE__85
+      - FI__108
+      - IR__147
+      - DE17
+      - 上海市 电信
+      - CN209
+      - 美国207
+      - CN72
+      - 美国101
+      - CN22
+      - CN102
+      - CN191
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港183
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK_7
-      - HK_10
-      - CN_3
-      - HK_8
-      - CN_209
-      - TW_108
-      - CN_4
-      - BZ__23
-      - +US1
-      - 美国174
-      - CN_100
-      - US_133
-      - US_115
-      - HK_194
-      - AM__34
-      - FR_127
-      - 德国 法兰克福Oracle云计算数据中心
-      - CN_17
-      - US__92
-      - US__118
-      - SG_136
-      - SG_152
-      - TW_140
-      - SG_154
-      - 美国 18
-      - BZ__203
-      - BZ__69
-      - CN__59 2
-      - +SG新加坡_1
+      - CN__145
+      - CN__166
+      - CN__266
+      - CN80
+      - undefined181
+      - SG140
+      - 香港183
+      - CN77
+      - SG42
+      - _36
+      - CN184
+      - NL__138
+      - UA33
+      - CN__6
+      - DE__85
+      - FI__108
+      - IR__147
+      - DE17
+      - 上海市 电信
+      - CN209
+      - 美国207
+      - CN72
+      - 美国101
+      - CN22
+      - CN102
+      - CN191
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK_7
-      - HK_10
-      - CN_3
-      - HK_8
-      - CN_209
-      - TW_108
-      - CN_4
-      - BZ__23
-      - +US1
-      - 美国174
-      - CN_100
-      - US_133
-      - US_115
-      - HK_194
-      - AM__34
-      - FR_127
-      - 德国 法兰克福Oracle云计算数据中心
-      - CN_17
-      - US__92
-      - US__118
-      - SG_136
-      - SG_152
-      - TW_140
-      - SG_154
-      - 美国 18
-      - BZ__203
-      - BZ__69
-      - CN__59 2
-      - +SG新加坡_1
+      - CN__145
+      - CN__166
+      - CN__266
+      - CN80
+      - undefined181
+      - SG140
+      - 香港183
+      - CN77
+      - SG42
+      - _36
+      - CN184
+      - NL__138
+      - UA33
+      - CN__6
+      - DE__85
+      - FI__108
+      - IR__147
+      - DE17
+      - 上海市 电信
+      - CN209
+      - 美国207
+      - CN72
+      - 美国101
+      - CN22
+      - CN102
+      - CN191
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_7
-      - HK_10
-      - CN_3
-      - HK_8
-      - CN_209
-      - TW_108
-      - CN_4
-      - BZ__23
-      - +US1
-      - 美国174
-      - CN_100
-      - US_133
-      - US_115
-      - HK_194
-      - AM__34
-      - FR_127
-      - 德国 法兰克福Oracle云计算数据中心
-      - CN_17
-      - US__92
-      - US__118
-      - SG_136
-      - SG_152
-      - TW_140
-      - SG_154
-      - 美国 18
-      - BZ__203
-      - BZ__69
-      - CN__59 2
-      - +SG新加坡_1
+      - CN__145
+      - CN__166
+      - CN__266
+      - CN80
+      - undefined181
+      - SG140
+      - 香港183
+      - CN77
+      - SG42
+      - _36
+      - CN184
+      - NL__138
+      - UA33
+      - CN__6
+      - DE__85
+      - FI__108
+      - IR__147
+      - DE17
+      - 上海市 电信
+      - CN209
+      - 美国207
+      - CN72
+      - 美国101
+      - CN22
+      - CN102
+      - CN191
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -308,35 +285,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_7
-      - HK_10
-      - CN_3
-      - HK_8
-      - CN_209
-      - TW_108
-      - CN_4
-      - BZ__23
-      - +US1
-      - 美国174
-      - CN_100
-      - US_133
-      - US_115
-      - HK_194
-      - AM__34
-      - FR_127
-      - 德国 法兰克福Oracle云计算数据中心
-      - CN_17
-      - US__92
-      - US__118
-      - SG_136
-      - SG_152
-      - TW_140
-      - SG_154
-      - 美国 18
-      - BZ__203
-      - BZ__69
-      - CN__59 2
-      - +SG新加坡_1
+      - CN__145
+      - CN__166
+      - CN__266
+      - CN80
+      - undefined181
+      - SG140
+      - 香港183
+      - CN77
+      - SG42
+      - _36
+      - CN184
+      - NL__138
+      - UA33
+      - CN__6
+      - DE__85
+      - FI__108
+      - IR__147
+      - DE17
+      - 上海市 电信
+      - CN209
+      - 美国207
+      - CN72
+      - 美国101
+      - CN22
+      - CN102
+      - CN191
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
