@@ -6,223 +6,136 @@ log-level: info
 external-controller: :9090
 proxies:
   - {
-      name: SG136,
-      server: sg5.lianpi.xyz,
-      port: 54126,
-      type: vmess,
-      uuid: 6af76bfd-b5bf-4646-8f8d-14ed3e044b22,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      udp: true
-    }
-  - {
-      name: SG_136,
-      server: sg5.lianpi.xyz,
-      port: 54126,
-      type: vmess,
-      uuid: 6af76bfd-b5bf-4646-8f8d-14ed3e044b22,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      udp: true
-    }
-  - {
-      name: CN_80,
-      server: fast.wl-node1.com,
-      port: 39008,
-      type: ss,
-      cipher: aes-128-gcm,
-      password: ad27d16f-0401-40bf-8a71-a907aceef918,
-      udp: true
-    }
-  - {
-      name: US_137,
-      server: cf.noaries.de,
-      port: 2052,
-      type: vmess,
-      uuid: 44ca94c0-b0c8-4e15-ab35-0a7947d7093b,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: '/aries?ed=2048',
-      ws-headers: { Host: contabo.cloudflare.quest },
-      udp: true
-    }
-  - {
-      name: GB英国9,
-      server: quranweb6.xyz,
-      port: 443,
-      type: vmess,
-      uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f,
-      alterId: 0,
-      cipher: auto,
-      tls: true,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: /current_time,
-      ws-headers: { Host: quranweb6.xyz },
-      udp: true
-    }
-  - {
-      name: US_47,
-      server: cf.noaries.de,
-      port: 8080,
-      type: vmess,
-      uuid: 44ca94c0-b0c8-4e15-ab35-0a7947d7093b,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: '/aries?ed=2048',
-      ws-headers: { Host: ft.cloudflare.quest },
-      udp: true
-    }
-  - {
-      name: US_118,
-      server: cf.noaries.de,
-      port: 2052,
-      type: vmess,
-      uuid: 44ca94c0-b0c8-4e15-ab35-0a7947d7093b,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: '/aries?ed=2048',
-      ws-headers: { Host: ee.cloudflare.quest },
-      udp: true
-    }
-  - {
-      name: DE9,
-      server: gz2.mm.926wan.xyz,
-      port: 48202,
-      type: vmess,
-      uuid: 28300080-08c8-4cf6-8657-0bb553cee278,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      udp: true
-    }
-  - {
-      name: 美国159,
-      server: quranweb40.xyz,
-      port: 443,
-      type: vmess,
-      uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f,
-      alterId: 0,
-      cipher: auto,
-      tls: true,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: /current_time,
-      ws-headers: { Host: quranweb40.xyz },
-      udp: true
-    }
-  - {
-      name: LU_70,
-      server: prs.4ir2rayv.tk,
-      port: 443,
-      type: vmess,
-      uuid: 2f66b74e-be6b-41fd-91eb-15bf715a4e88,
-      alterId: 0,
-      cipher: auto,
-      tls: true,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: /,
-      ws-headers: { Host: all0106.we4all2me.shop },
-      udp: true
-    }
-  - {
-      name: US_69,
-      server: hwb.4ir2rayv.tk,
-      port: 443,
-      type: vmess,
-      uuid: 2f66b74e-be6b-41fd-91eb-15bf715a4e88,
-      alterId: 0,
-      cipher: auto,
-      tls: true,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: /,
-      ws-headers: { Host: all0106.we4all2me.shop },
-      udp: true
-    }
-  - {
-      name: HK_90,
-      server: hk11.microsoftjs.top,
-      port: 443,
+      name: 上海市 电信,
+      server: oss-cn-shanghai.westdatacloud.top,
+      port: 20048,
       type: trojan,
-      password: 2c0da31c-026e-48ea-9c5a-9e018ad019bb,
-      sni: hk11.microsoftjs.top,
+      password: 626351FA-3CA6-8118-FADF-CCDBCD620871,
+      sni: oss-cn-shanghai.westdatacloud.top,
       skip-cert-verify: true,
       udp: true
     }
   - {
-      name: US_87,
-      server: cf.noaries.de,
-      port: 2052,
+      name: +JP220,
+      server: 85.208.108.60,
+      port: 2375,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: faBAoD54k87UJG7,
+      udp: true
+    }
+  - {
+      name: +JP104,
+      server: 85.208.108.60,
+      port: 8000,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: KixLvKzwjekG00rm,
+      udp: true
+    }
+  - {
+      name: CA__33,
+      server: 23.227.38.39,
+      port: 80,
       type: vmess,
-      uuid: 44ca94c0-b0c8-4e15-ab35-0a7947d7093b,
+      uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd,
       alterId: 0,
       cipher: auto,
       tls: false,
       skip-cert-verify: true,
       network: ws,
-      ws-path: '/aries?ed=2048',
-      ws-headers: { Host: vn.cloudflare.quest },
+      ws-path: /,
+      ws-headers: { Host: lg.v2ray8.xyz },
       udp: true
     }
   - {
-      name: JP_102,
-      server: 85.208.108.60,
-      port: 8118,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: cdBIDV42DCwnfIN,
-      udp: true
-    }
-  - {
-      name: CN209,
-      server: 106.55.234.95,
-      port: 31372,
-      type: vmess,
-      uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      udp: true
-    }
-  - {
-      name: SG_26,
-      server: sg17.microsoftjs.top,
+      name: 美国33,
+      server: cf-lt-dns.sharecentre.online,
       port: 443,
       type: vmess,
-      uuid: 2c0da31c-026e-48ea-9c5a-9e018ad019bb,
+      uuid: 823c31da-701f-483d-b36e-896e5cf0987a,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      network: ws,
+      ws-path: /shirker,
+      ws-headers: { Host: lv3.sharecentrepro.org },
+      udp: true
+    }
+  - {
+      name: US__84,
+      server: 172.67.73.165,
+      port: 80,
+      type: vmess,
+      uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd,
       alterId: 0,
       cipher: auto,
       tls: false,
       skip-cert-verify: true,
       network: ws,
-      ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b,
-      ws-headers: { Host: awkj },
+      ws-path: /,
+      ws-headers: { Host: lg.v2ray8.xyz },
       udp: true
     }
   - {
-      name: JP_115,
-      server: 85.208.108.60,
-      port: 8091,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: PCnnH6SQSnfoS27,
+      name: US__178,
+      server: cf-yd-dns.sharecentre.online,
+      port: 80,
+      type: vmess,
+      uuid: 823c31da-701f-483d-b36e-896e5cf0987a,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: true,
+      network: ws,
+      ws-path: /shirker,
+      ws-headers: { Host: ny1.sharecentrepro.org },
+      udp: true
+    }
+  - {
+      name: PA__259,
+      server: 185.143.220.25,
+      port: 443,
+      type: vmess,
+      uuid: f28e354e-c2d1-4983-9b07-5acaf1b3b3e5,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      network: ws,
+      ws-path: /6e9EtZ2dL,
+      ws-headers: { Host: dengxin.one },
+      udp: true
+    }
+  - {
+      name: BZ__144,
+      server: 203.30.189.1,
+      port: 80,
+      type: vmess,
+      uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: true,
+      network: ws,
+      ws-path: /,
+      ws-headers: { Host: lg.v2ray8.xyz },
+      udp: true
+    }
+  - {
+      name: US7,
+      server: xy001.tiktok00001.win,
+      port: 40203,
+      type: vmess,
+      uuid: ea045a28-23c5-4006-9a92-efd02d4aa633,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      network: grpc,
+      servername: xy001.tiktok00001.win,
+      grpc-opts: { grpc-service-name: xy001.tiktok00001.win },
       udp: true
     }
   - {
@@ -238,144 +151,156 @@ proxies:
       udp: true
     }
   - {
-      name: JP_111,
-      server: 85.208.108.60,
-      port: 6379,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: zDNVedRFPQexG9v,
-      udp: true
-    }
-  - {
-      name: US_175,
-      server: 156.225.67.201,
+      name: 美国,
+      server: 152.70.74.66,
       port: 443,
-      type: vmess,
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24,
-      alterId: 64,
-      cipher: auto,
-      tls: true,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: /path/130632252334,
-      ws-headers: { Host: www.49291261.xyz },
-      udp: true
-    }
-  - {
-      name: US_41,
-      server: 156.225.67.146,
-      port: 51948,
-      type: vmess,
-      uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29,
-      alterId: 64,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      udp: true
-    }
-  - {
-      name: JP_109,
-      server: 85.208.108.60,
-      port: 5004,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: g5MeD6Ft3CWlJId,
-      udp: true
-    }
-  - {
-      name: CN__19,
-      server: in-jp-1.iivvppnn.info,
-      port: 38301,
-      type: vmess,
-      uuid: 79386685-16da-327c-9e14-aa6d702d86bc,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: /hls/cctv5phd.m3u8,
-      ws-headers: { Host: www.ivpnpro.net },
-      udp: true
-    }
-  - {
-      name: NL_76,
-      server: 154.84.1.80,
-      port: 42902,
-      type: vmess,
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24,
-      alterId: 64,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      udp: true
-    }
-  - {
-      name: JP日本7,
-      server: in-jp-1.iivvppnn.info,
-      port: 38301,
-      type: vmess,
-      uuid: 79386685-16da-327c-9e14-aa6d702d86bc,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: /hls/cctv5phd.m3u8,
-      ws-headers: { Host: in-jp-1.iivvppnn.info },
-      udp: true
-    }
-  - {
-      name: RO_19,
-      server: 45.85.119.18,
-      port: 443,
-      type: vmess,
-      uuid: 8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f,
-      alterId: 0,
-      cipher: auto,
-      tls: true,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: /current_time,
-      ws-headers: { Host: holyquran4.store },
-      udp: true
-    }
-  - {
-      name: JP_113,
-      server: 85.208.108.60,
-      port: 7002,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: RexnBgU7EV5ADxG,
-      udp: true
-    }
-  - {
-      name: US_116,
-      server: 1st.starvskii2world.top,
-      port: 443,
-      type: vmess,
-      uuid: 3c530a57-f1f0-4fe0-92c3-7287a5251f97,
-      alterId: 0,
-      cipher: auto,
-      tls: true,
-      skip-cert-verify: true,
-      network: ws,
-      ws-path: /cf01,
-      ws-headers: { Host: 1st.starvskii2world.top },
-      udp: true
-    }
-  - {
-      name: 上海市 电信,
-      server: oss-cn-shanghai.westdatacloud.top,
-      port: 20048,
       type: trojan,
-      password: 626351FA-3CA6-8118-FADF-CCDBCD620871,
-      sni: oss-cn-shanghai.westdatacloud.top,
+      password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e,
       skip-cert-verify: true,
       udp: true
     }
   - {
-      name: CN72,
-      server: 36.134.16.96,
+      name: US15,
+      server: xy027.tiktok00001.win,
+      port: 20228,
+      type: vmess,
+      uuid: ea045a28-23c5-4006-9a92-efd02d4aa633,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      network: grpc,
+      servername: xy027.tiktok00001.win,
+      grpc-opts: { grpc-service-name: xy027.tiktok00001.win },
+      udp: true
+    }
+  - {
+      name: JP__262,
+      server: aujs.stablize.top,
+      port: 443,
+      type: trojan,
+      password: c0cf56d4-08a7-4436-9e6a-3feebe142706,
+      sni: aujs.stablize.top,
+      skip-cert-verify: true,
+      udp: true
+    }
+  - {
+      name: CY__98,
+      server: 203.24.108.100,
+      port: 80,
+      type: vmess,
+      uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: true,
+      network: ws,
+      ws-path: /,
+      ws-headers: { Host: lg.v2ray8.xyz },
+      udp: true
+    }
+  - {
+      name: US__86,
+      server: cf.noaries.de,
+      port: 2086,
+      type: vmess,
+      uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: true,
+      network: ws,
+      ws-path: '/aries?ed=2048',
+      ws-headers: { Host: ovh.cloudflare.quest },
+      udp: true
+    }
+  - {
+      name: US21,
+      server: xy028.tiktok00001.win,
+      port: 20229,
+      type: vmess,
+      uuid: ea045a28-23c5-4006-9a92-efd02d4aa633,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      network: grpc,
+      servername: xy028.tiktok00001.win,
+      grpc-opts: { grpc-service-name: xy028.tiktok00001.win },
+      udp: true
+    }
+  - {
+      name: US22,
+      server: xy030.tiktok00001.win,
+      port: 20231,
+      type: vmess,
+      uuid: ea045a28-23c5-4006-9a92-efd02d4aa633,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      network: grpc,
+      servername: xy030.tiktok00001.win,
+      grpc-opts: { grpc-service-name: xy030.tiktok00001.win },
+      udp: true
+    }
+  - {
+      name: US__127,
+      server: cf-lt.sharecentre.online,
+      port: 80,
+      type: vmess,
+      uuid: 823c31da-701f-483d-b36e-896e5cf0987a,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: true,
+      network: ws,
+      ws-path: /shirker,
+      ws-headers: { Host: ny1.sharecentrepro.org },
+      udp: true
+    }
+  - {
+      name: CN209,
+      server: 106.55.234.95,
+      port: 31372,
+      type: vmess,
+      uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: true,
+      udp: true
+    }
+  - {
+      name: US__169,
+      server: 198.16.45.166,
+      port: 53392,
+      type: vmess,
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24,
+      alterId: 64,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: true,
+      udp: true
+    }
+  - {
+      name: US19,
+      server: xy004.liangqiqi.com,
+      port: 20205,
+      type: vmess,
+      uuid: ea045a28-23c5-4006-9a92-efd02d4aa633,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      network: grpc,
+      servername: xy004.liangqiqi.com,
+      grpc-opts: { grpc-service-name: xy004.liangqiqi.com },
+      udp: true
+    }
+  - {
+      name: CN__59,
+      server: 36.133.171.209,
       port: 11023,
       type: vmess,
       uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc,
@@ -386,87 +311,48 @@ proxies:
       udp: true
     }
   - {
-      name: CN__145,
-      server: 36.137.106.45,
-      port: 11023,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: ll668668@,
-      udp: true
-    }
-  - {
-      name: CN__63,
-      server: 36.138.140.208,
-      port: 11023,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: ll668668@,
-      udp: true
-    }
-  - {
-      name: CN80,
-      server: 36.134.16.190,
-      port: 11023,
+      name: CN__261,
+      server: 25.v2-ray.cyou,
+      port: 23625,
       type: vmess,
-      uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc,
+      uuid: 0dd19d20-ec86-3680-b256-87237bafa89e,
+      alterId: 2,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: true,
+      network: ws,
+      ws-path: /,
+      ws-headers: { Host: 25.v2-ray.cyou },
+      udp: true
+    }
+  - {
+      name: US14,
+      server: xy003.tiktok00001.win,
+      port: 40204,
+      type: vmess,
+      uuid: ea045a28-23c5-4006-9a92-efd02d4aa633,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      network: grpc,
+      servername: xy003.tiktok00001.win,
+      grpc-opts: { grpc-service-name: xy003.tiktok00001.win },
+      udp: true
+    }
+  - {
+      name: 美国113,
+      server: cf-dx-dns.sharecentre.online,
+      port: 80,
+      type: vmess,
+      uuid: 823c31da-701f-483d-b36e-896e5cf0987a,
       alterId: 0,
       cipher: auto,
       tls: false,
       skip-cert-verify: true,
-      udp: true
-    }
-  - {
-      name: CN191,
-      server: 36.137.106.115,
-      port: 11023,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: ll668668@,
-      udp: true
-    }
-  - {
-      name: CN137,
-      server: 36.139.166.244,
-      port: 11023,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: ll668668@,
-      udp: true
-    }
-  - {
-      name: 香港183,
-      server: b1.ss1011.top,
-      port: 1509,
-      type: vmess,
-      uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      udp: true
-    }
-  - {
-      name: CN184,
-      server: 36.134.16.96,
-      port: 11023,
-      type: vmess,
-      uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
-      udp: true
-    }
-  - {
-      name: CN__174,
-      server: 36.134.16.171,
-      port: 11023,
-      type: vmess,
-      uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc,
-      alterId: 0,
-      cipher: auto,
-      tls: false,
-      skip-cert-verify: true,
+      network: ws,
+      ws-path: /shirker,
+      ws-headers: { Host: ny1.sharecentrepro.org },
       udp: true
     }
   - {
@@ -482,17 +368,38 @@ proxies:
       udp: true
     }
   - {
-      name: CN__115,
-      server: 36.139.166.252,
-      port: 11023,
-      type: ss,
-      cipher: aes-256-gcm,
-      password: ll668668@,
+      name: US17,
+      server: xy029.tiktok00001.win,
+      port: 20230,
+      type: vmess,
+      uuid: ea045a28-23c5-4006-9a92-efd02d4aa633,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      network: grpc,
+      servername: xy029.tiktok00001.win,
+      grpc-opts: { grpc-service-name: xy029.tiktok00001.win },
       udp: true
     }
   - {
-      name: CN__199,
-      server: 36.133.171.209,
+      name: US__280,
+      server: cf-yd-dns.sharecentre.online,
+      port: 443,
+      type: vmess,
+      uuid: 823c31da-701f-483d-b36e-896e5cf0987a,
+      alterId: 0,
+      cipher: auto,
+      tls: true,
+      skip-cert-verify: true,
+      network: ws,
+      ws-path: /shirker,
+      ws-headers: { Host: sg1.sharecentrepro.com },
+      udp: true
+    }
+  - {
+      name: CN__174,
+      server: 36.134.16.171,
       port: 11023,
       type: vmess,
       uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc,
@@ -502,146 +409,131 @@ proxies:
       skip-cert-verify: true,
       udp: true
     }
+  - {
+      name: 美国110,
+      server: cf-yd-dns.sharecentre.online,
+      port: 80,
+      type: vmess,
+      uuid: 823c31da-701f-483d-b36e-896e5cf0987a,
+      alterId: 0,
+      cipher: auto,
+      tls: false,
+      skip-cert-verify: true,
+      network: ws,
+      ws-path: /shirker,
+      ws-headers: { Host: sg1.sharecentrepro.com },
+      udp: true
+    }
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG136
-      - SG_136
-      - CN_80
-      - US_137
-      - GB英国9
-      - US_47
-      - US_118
-      - DE9
-      - 美国159
-      - LU_70
-      - US_69
-      - HK_90
-      - US_87
-      - JP_102
-      - CN209
-      - SG_26
-      - JP_115
-      - 231
-      - JP_111
-      - US_175
-      - US_41
-      - JP_109
-      - CN__19
-      - NL_76
-      - JP日本7
-      - RO_19
-      - JP_113
-      - US_116
       - 上海市 电信
-      - CN72
-      - CN__145
-      - CN__63
-      - CN80
-      - CN191
-      - CN137
-      - 香港183
-      - CN184
-      - CN__174
+      - +JP220
+      - +JP104
+      - CA__33
+      - 美国33
+      - US__84
+      - US__178
+      - PA__259
+      - BZ__144
+      - US7
+      - 231
+      - 美国
+      - US15
+      - JP__262
+      - CY__98
+      - US__86
+      - US21
+      - US22
+      - US__127
+      - CN209
+      - US__169
+      - US19
+      - CN__59
+      - CN__261
+      - US14
+      - 美国113
       - CN__166
-      - CN__115
-      - CN__199
+      - US17
+      - US__280
+      - CN__174
+      - 美国110
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - SG136
-      - SG_136
-      - CN_80
-      - US_137
-      - GB英国9
-      - US_47
-      - US_118
-      - DE9
-      - 美国159
-      - LU_70
-      - US_69
-      - HK_90
-      - US_87
-      - JP_102
-      - CN209
-      - SG_26
-      - JP_115
-      - 231
-      - JP_111
-      - US_175
-      - US_41
-      - JP_109
-      - CN__19
-      - NL_76
-      - JP日本7
-      - RO_19
-      - JP_113
-      - US_116
       - 上海市 电信
-      - CN72
-      - CN__145
-      - CN__63
-      - CN80
-      - CN191
-      - CN137
-      - 香港183
-      - CN184
-      - CN__174
+      - +JP220
+      - +JP104
+      - CA__33
+      - 美国33
+      - US__84
+      - US__178
+      - PA__259
+      - BZ__144
+      - US7
+      - 231
+      - 美国
+      - US15
+      - JP__262
+      - CY__98
+      - US__86
+      - US21
+      - US22
+      - US__127
+      - CN209
+      - US__169
+      - US19
+      - CN__59
+      - CN__261
+      - US14
+      - 美国113
       - CN__166
-      - CN__115
-      - CN__199
+      - US17
+      - US__280
+      - CN__174
+      - 美国110
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG136
-      - SG_136
-      - CN_80
-      - US_137
-      - GB英国9
-      - US_47
-      - US_118
-      - DE9
-      - 美国159
-      - LU_70
-      - US_69
-      - HK_90
-      - US_87
-      - JP_102
-      - CN209
-      - SG_26
-      - JP_115
-      - 231
-      - JP_111
-      - US_175
-      - US_41
-      - JP_109
-      - CN__19
-      - NL_76
-      - JP日本7
-      - RO_19
-      - JP_113
-      - US_116
       - 上海市 电信
-      - CN72
-      - CN__145
-      - CN__63
-      - CN80
-      - CN191
-      - CN137
-      - 香港183
-      - CN184
-      - CN__174
+      - +JP220
+      - +JP104
+      - CA__33
+      - 美国33
+      - US__84
+      - US__178
+      - PA__259
+      - BZ__144
+      - US7
+      - 231
+      - 美国
+      - US15
+      - JP__262
+      - CY__98
+      - US__86
+      - US21
+      - US22
+      - US__127
+      - CN209
+      - US__169
+      - US19
+      - CN__59
+      - CN__261
+      - US14
+      - 美国113
       - CN__166
-      - CN__115
-      - CN__199
+      - US17
+      - US__280
+      - CN__174
+      - 美国110
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -660,192 +552,151 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG136
-      - SG_136
-      - CN_80
-      - US_137
-      - GB英国9
-      - US_47
-      - US_118
-      - DE9
-      - 美国159
-      - LU_70
-      - US_69
-      - HK_90
-      - US_87
-      - JP_102
-      - CN209
-      - SG_26
-      - JP_115
-      - 231
-      - JP_111
-      - US_175
-      - US_41
-      - JP_109
-      - CN__19
-      - NL_76
-      - JP日本7
-      - RO_19
-      - JP_113
-      - US_116
       - 上海市 电信
-      - CN72
-      - CN__145
-      - CN__63
-      - CN80
-      - CN191
-      - CN137
-      - 香港183
-      - CN184
-      - CN__174
+      - +JP220
+      - +JP104
+      - CA__33
+      - 美国33
+      - US__84
+      - US__178
+      - PA__259
+      - BZ__144
+      - US7
+      - 231
+      - 美国
+      - US15
+      - JP__262
+      - CY__98
+      - US__86
+      - US21
+      - US22
+      - US__127
+      - CN209
+      - US__169
+      - US19
+      - CN__59
+      - CN__261
+      - US14
+      - 美国113
       - CN__166
-      - CN__115
-      - CN__199
+      - US17
+      - US__280
+      - CN__174
+      - 美国110
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港183
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - SG136
-      - SG_136
-      - CN_80
-      - US_137
-      - GB英国9
-      - US_47
-      - US_118
-      - DE9
-      - 美国159
-      - LU_70
-      - US_69
-      - HK_90
-      - US_87
-      - JP_102
-      - CN209
-      - SG_26
-      - JP_115
-      - 231
-      - JP_111
-      - US_175
-      - US_41
-      - JP_109
-      - CN__19
-      - NL_76
-      - JP日本7
-      - RO_19
-      - JP_113
-      - US_116
       - 上海市 电信
-      - CN72
-      - CN__145
-      - CN__63
-      - CN80
-      - CN191
-      - CN137
-      - 香港183
-      - CN184
-      - CN__174
+      - +JP220
+      - +JP104
+      - CA__33
+      - 美国33
+      - US__84
+      - US__178
+      - PA__259
+      - BZ__144
+      - US7
+      - 231
+      - 美国
+      - US15
+      - JP__262
+      - CY__98
+      - US__86
+      - US21
+      - US22
+      - US__127
+      - CN209
+      - US__169
+      - US19
+      - CN__59
+      - CN__261
+      - US14
+      - 美国113
       - CN__166
-      - CN__115
-      - CN__199
+      - US17
+      - US__280
+      - CN__174
+      - 美国110
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - SG136
-      - SG_136
-      - CN_80
-      - US_137
-      - GB英国9
-      - US_47
-      - US_118
-      - DE9
-      - 美国159
-      - LU_70
-      - US_69
-      - HK_90
-      - US_87
-      - JP_102
-      - CN209
-      - SG_26
-      - JP_115
-      - 231
-      - JP_111
-      - US_175
-      - US_41
-      - JP_109
-      - CN__19
-      - NL_76
-      - JP日本7
-      - RO_19
-      - JP_113
-      - US_116
       - 上海市 电信
-      - CN72
-      - CN__145
-      - CN__63
-      - CN80
-      - CN191
-      - CN137
-      - 香港183
-      - CN184
-      - CN__174
+      - +JP220
+      - +JP104
+      - CA__33
+      - 美国33
+      - US__84
+      - US__178
+      - PA__259
+      - BZ__144
+      - US7
+      - 231
+      - 美国
+      - US15
+      - JP__262
+      - CY__98
+      - US__86
+      - US21
+      - US22
+      - US__127
+      - CN209
+      - US__169
+      - US19
+      - CN__59
+      - CN__261
+      - US14
+      - 美国113
       - CN__166
-      - CN__115
-      - CN__199
+      - US17
+      - US__280
+      - CN__174
+      - 美国110
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SG136
-      - SG_136
-      - CN_80
-      - US_137
-      - GB英国9
-      - US_47
-      - US_118
-      - DE9
-      - 美国159
-      - LU_70
-      - US_69
-      - HK_90
-      - US_87
-      - JP_102
-      - CN209
-      - SG_26
-      - JP_115
-      - 231
-      - JP_111
-      - US_175
-      - US_41
-      - JP_109
-      - CN__19
-      - NL_76
-      - JP日本7
-      - RO_19
-      - JP_113
-      - US_116
       - 上海市 电信
-      - CN72
-      - CN__145
-      - CN__63
-      - CN80
-      - CN191
-      - CN137
-      - 香港183
-      - CN184
-      - CN__174
+      - +JP220
+      - +JP104
+      - CA__33
+      - 美国33
+      - US__84
+      - US__178
+      - PA__259
+      - BZ__144
+      - US7
+      - 231
+      - 美国
+      - US15
+      - JP__262
+      - CY__98
+      - US__86
+      - US21
+      - US22
+      - US__127
+      - CN209
+      - US__169
+      - US19
+      - CN__59
+      - CN__261
+      - US14
+      - 美国113
       - CN__166
-      - CN__115
-      - CN__199
+      - US17
+      - US__280
+      - CN__174
+      - 美国110
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -861,47 +712,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SG136
-      - SG_136
-      - CN_80
-      - US_137
-      - GB英国9
-      - US_47
-      - US_118
-      - DE9
-      - 美国159
-      - LU_70
-      - US_69
-      - HK_90
-      - US_87
-      - JP_102
-      - CN209
-      - SG_26
-      - JP_115
-      - 231
-      - JP_111
-      - US_175
-      - US_41
-      - JP_109
-      - CN__19
-      - NL_76
-      - JP日本7
-      - RO_19
-      - JP_113
-      - US_116
       - 上海市 电信
-      - CN72
-      - CN__145
-      - CN__63
-      - CN80
-      - CN191
-      - CN137
-      - 香港183
-      - CN184
-      - CN__174
+      - +JP220
+      - +JP104
+      - CA__33
+      - 美国33
+      - US__84
+      - US__178
+      - PA__259
+      - BZ__144
+      - US7
+      - 231
+      - 美国
+      - US15
+      - JP__262
+      - CY__98
+      - US__86
+      - US21
+      - US22
+      - US__127
+      - CN209
+      - US__169
+      - US19
+      - CN__59
+      - CN__261
+      - US14
+      - 美国113
       - CN__166
-      - CN__115
-      - CN__199
+      - US17
+      - US__280
+      - CN__174
+      - 美国110
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
